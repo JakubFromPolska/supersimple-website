@@ -1,0 +1,39 @@
+body
+{
+    width: 1000px;
+    background-color: green;
+}
+
+#primo
+
+{
+
+    background-color: blue;
+}
+
+#second
+
+{
+    margin-top: 900px;
+    background-color: yellow;
+}
+
+ /* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #00bc38;
+  }
+  
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(252, 6, 6);
+  }
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(4, 243, 207);
+  } 

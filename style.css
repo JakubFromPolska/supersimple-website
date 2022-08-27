@@ -1,0 +1,190 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+
+body
+{
+   font-family: 'Lato';
+   font-size: 20px;
+    background-color: #303030;
+    color: #ffff;
+    margin: 0 !important;
+    
+
+}
+/* SCROLL BAR*/
+
+ /* width */
+ ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #303030;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #212121;
+  } 
+
+
+
+.wrapper
+{
+    width: 100%;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding:40px 0;
+}
+
+.logo
+{
+    clear: both;
+    width: 450px;
+    font-size: 48px;
+    border: 10px solid #ffff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo img
+{
+    width: 43px;
+    float: left;
+}
+
+span
+{
+    color: #ff6666;
+}
+
+.nav
+{
+    background-color: #ff6666;
+    width: 100%;
+    padding: 10px 0;
+    text-align:center;
+    border-top: 1px solid #ffff;
+    border-top: 1px solid #ffff;
+    height: 40px;
+
+}
+
+.nav_links
+{
+    list-style: none;
+}
+
+.nav_links li
+{
+    display: inline-block;
+    padding: 0px 25px;
+    
+}
+
+.nav_links li a
+{
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover
+{
+    background-color: #3030305c;
+   
+}
+
+li,a,button 
+{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffff;
+    text-decoration: none;
+}
+
+
+.content
+{
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: justify;
+}
+
+/* ICONS SOCIALS */
+.socials
+{
+    font-size: 72px;
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+    background-color: #212121;
+}
+
+.socialsdivs
+{
+    
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fb 
+{
+    
+    width: 250px;
+    height: 155px;
+    float: left;
+
+}
+.fb:hover
+{
+  background-color: #4668b3;  
+}
+.yt 
+{
+
+    width: 250px;
+    height: 155px;
+    float: left;
+
+}
+.yt:hover
+{
+  background-color: #d94348;  
+}
+.tw 
+{
+
+    width: 250px;
+    height: 155px;
+    float: left;
+
+}
+.tw:hover
+{
+  background-color: #3095b3;  
+}
+.gplus 
+{
+
+    width: 250px;
+    height: 155px;
+    float: left;
+
+}
+.gplus:hover
+{
+  background-color: #d95333;  
+}
